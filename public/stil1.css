@@ -1,0 +1,165 @@
+
+#okvir,#tab{
+    display: flow-root;
+  }
+
+
+  table, td {
+    border-right: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+  }
+ 
+ 
+  table{
+      background-color: rgb(224, 228, 228);
+  }
+  #a1,#a2,#a3,#a4,#a5{
+      padding-top: 10px;
+     font-family: Courier;
+      font-size: 20pt;
+    text-align: right;
+  }
+
+  #tab{
+
+    margin-top: 10px;
+    margin-left: 100px;
+    
+   }
+
+  tr td:nth-child(even){
+  border-right: 2px dashed;
+   }
+
+   
+  .id1{
+      text-align: center;
+      background-color: rgb(212, 238, 245);
+   
+  }
+  
+  #velika, #dm_p, #wt_v{
+    border-left: 1px solid black ;
+  }
+  
+  #oi, #dm_t, #wt_p{
+    border-right: 1px solid black;
+  }
+  
+  #p1{
+    border-right: 1px solid black;
+    border-left: 2px dashed black ;
+  }
+
+  td:nth-child(1) p{
+    font-family: Courier;
+    font-size: 20pt;
+    text-align: center;
+  
+  }
+
+  td{
+    height: 60px;
+    border:1px solid black;
+    
+  }
+
+  td:nth-child(1){
+   
+    border-top:0;
+    border-left:0;
+    border-bottom:0;
+    background-color: white;
+  }
+ 
+#tab p,h2{
+ margin: 5px ;
+}
+
+.p1 {
+    padding: 135px;
+   
+
+  }
+ .p2,.p5  {
+    padding: 0px;
+   
+
+  }
+  .p3  {
+    padding: 110px;
+   
+
+  }
+  #sati{
+    width: 1500px;
+    text-align: center;
+ margin-left: 30px;
+  }
+#sati li{
+ padding-top:40px ;
+ padding-bottom:40px ;
+}
+ 
+
+  #sati ul{
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+ 
+
+  @media only screen and (max-width:600px) {
+    /* For mobile phones: */
+  
+    #sati{
+      display: none;
+    }
+     
+    table, thead, tbody, th, td, tr { 
+      display: block; 
+    }
+
+    
+    table { 
+    
+      
+     border: none;
+    background-color: white;}
+      
+    td:nth-child(1) p{
+    
+    font-family: Courier;
+    font-size: 15pt;
+    text-align: left;
+  
+   } 
+   tr td:nth-child(even){
+     
+    border-right:1px solid black;
+   
+     }
+  
+    td{
+      height: 50px;
+      width: 300px;
+    }
+    
+    tr{
+      width: 340px;
+    }
+  .prazna {
+    display: none;
+  }
+ 
+  td:nth-child(1){
+    border:1px solid black ;
+   text-align: right;
+  }
+  td:nth-child(1) p{
+   text-align: center;
+  }
+
+
+  }

@@ -1,0 +1,17 @@
+DELETE,/all,null,{\"message\":\"Uspješno obrisan sadržaj datoteka!\"}
+GET,/predmeti,null,[]
+POST,/predmet,{\"naziv\":\"RMA\"},{\"message\":\"Uspješno dodan predmet!\"}
+GET,/predmeti,null,[{\"naziv\":\"RMA\"}]
+GET,/aktivnosti,null,[]
+POST,/aktivnost,{\"naziv\":\"RMA\",\"tip\":\"vjezbe\",\"pocetak\":\"12\",\"kraj\":\"14\",\"dan\":\"Utorak\"},{\"message\":\"Uspješno dodana aktivnost!\"}
+GET,/aktivnosti,null,[{\"naziv\":\"RMA\",\"tip\":\"vjezbe\",\"pocetak\":12,\"kraj\":14,\"dan\":\"Utorak\"}]
+GET,/predmet/LD/aktivnost/,null,[]
+GET,/predmet/RMA/aktivnost/,null,[{\"naziv\":\"RMA\",\"tip\":\"vjezbe\",\"pocetak\":12,\"kraj\":14,\"dan\":\"Utorak\"}]
+POST,/predmet,{\"naziv\":\"RMA\"},{\"message\":\"Naziv predmeta postoji!\"}
+POST,/aktivnost,{\"naziv\":\"SP\",\"tip\":\"predavanje\",\"pocetak\":\"15\",\"kraj\":\"14\",\"dan\":\"Ponedjeljak\"},{\"message\":\"Aktivnost nije validna!\"}
+DELETE,/predmet/RMA,null,{\"message\":\"Uspješno obrisan predmet!\"}
+DELETE,/predmet/SP,null,{\"message\":\"Greška - predmet nije obrisan!\"}
+DELETE,/aktivnost/RMA,null,{\"message\":\"Uspješno obrisana aktivnost!\"}
+DELETE,/aktivnost/SP,null,{\"message\":\"Greška - aktivnost nije obrisana!\"}
+DELETE,/all,null,{\"message\":\"Uspješno obrisan sadržaj datoteka!\"}
+DELETE,/all,null,{\"message\":\"Uspješno obrisan sadržaj datoteka!\"}

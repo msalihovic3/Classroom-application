@@ -1,0 +1,12 @@
+ul {
+   
+    background-color: rgba(221, 222, 223, 0.884);
+    list-style-type: none;
+ 
+    padding: 20px;
+  }
+  
+  li {
+ display: inline;
+
+  }

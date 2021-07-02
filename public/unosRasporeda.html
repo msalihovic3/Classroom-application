@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<HTML lang="bs">
+<HEAD>
+<TITLE>Spirala1, Zadatak 3</TITLE>
+<link rel="stylesheet" type="text/css" href="stil3.css">
+<link rel="stylesheet" type="text/css" href="zajednički.css">
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+    <div id="okvir">
+      <form >
+        
+
+    <div class="polje">
+      <div class="left">
+        <label  for="naziv">Naziv grupe:</label></div>
+     <div class="right" >
+      <select name="naziv" id = "naziv">
+      </select>
+     </div>
+   </div>
+
+   <div class="polje">
+    <div class="left">
+      
+      <label  for="aktivnost">Naziv predmeta (kao u grupi):</label></div>
+   <div class="right" >
+    <select name="aktivnost" id = "aktivnost">
+    </select>
+   </div>
+ </div>
+
+   <div class="polje">
+    <div class="left">
+    <label for="tip">Vrijednost:</label></div>
+    <div class="right">
+        <select name="tip" id = "tip">
+            <option value = "predavanje">predavanje</option>
+            <option value = "vjezbe">vjezbe</option>
+          </select>
+        <br>
+        </div>
+    </div>
+
+  <div class="polje">
+    <div class="left">
+    <label for="pocetak">Vrijeme početka:</label></div>
+    <div class="right">
+
+        <input type="time"  id="pocetak" name="pocetak">
+        <br>
+    </div>
+</div>
+
+<div class="polje">
+    <div class="left">
+    <label for="kraj">Vrijeme kraja:</label></div>
+    <div class="right">
+  
+        <input type="time" id="kraj" name="kraj">
+        <br>
+    </div>
+</div>
+    
+<div class="polje">
+        <div class="left">  
+    <label for="dan"> Dani:</label> </div>
+    <div class="right">
+  
+        <select id = "dan" name="dan">
+            <option value = "Ponedjeljak">Ponedjeljak</option>
+            <option value = "Utorak">Utorak</option>
+            <option value = "Srijeda">Srijeda</option>
+            <option value = "Cetvrtak">Četvrtak</option>
+            <option value = "Petak">Petak</option>
+          </select>
+    </div>
+
+       
+</div>
+
+</form>
+<button onclick="myFunction()">Spremi</button>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+</div>
+<script language="javascript" type="text/javascript" src="cetvrti.js"></script>
+</BODY>
+</HTML>

@@ -1,0 +1,30 @@
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  #okvir{
+
+    width: 1500px;
+    margin:auto;
+  
+    display: flow-root;
+  }
+  td{
+      width: 120px;
+  }
+
+  table tr:hover {border: 2px solid black;}
+
+  table{
+    margin: auto;
+  }
+  @media only screen and (max-width:600px) {
+    /* For mobile phones: */
+  
+    #okvir{
+      width: 100%;
+    }
+  }

@@ -1,0 +1,81 @@
+ td,table {
+   
+    border-collapse: collapse;
+    padding: 15px;
+  }
+ 
+ 
+  
+tr:first-child td {
+    background:white;
+    border:none;
+}
+tr:first-child  td:nth-child(even){
+  border-right: none;
+   }
+
+
+
+
+   td{
+    height: 60px;
+    border:1px solid black;
+    background-color: rgb(224, 228, 228);
+
+   }
+
+   td[value=zauzeta]{
+ text-align: center;
+ background-color:  rgb(212, 238, 245);;
+ font-family: Arial;
+ font-size: 10pt;
+   }
+
+  h{
+    font-size: 15pt;
+      }
+
+
+  td:nth-child(1){
+
+    height: 80px;
+    border-top:0;
+    border-left:0;
+    border-bottom:0;
+    background-color: white;
+    text-align: center;
+    font-family: Courier;
+    font-size: 15pt;
+  }
+  
+
+  @media only screen and (max-width:600px) {
+    /* For mobile phones: */
+  
+  
+     
+    table, thead, tbody, th, td, tr { 
+      display: block; 
+    }
+  
+    tr[value=sati]{
+      display: none;
+     }
+
+ 
+    td[value=slobodna]{
+      display: none;
+     }
+     
+     td[value=dani]{
+    
+     border:1px solid black ;
+     }
+   
+    td{
+      
+      text-align: center;
+    }
+ 
+    
+  }

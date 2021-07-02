@@ -1,0 +1,126 @@
+
+
+body{
+  background-color:rgb(186, 205, 221);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 35%;
+  
+    padding-right:0px;
+    padding-left:100px;
+    padding-top: 95px;
+    padding-bottom: 70px;
+  
+}
+.menu fieldset {
+    border: 3px solid rgb(75, 113, 189);
+    border-radius: 40px;
+    color:rgb(75, 113, 189);
+    text-align: center;
+    font-family: Arial;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top: 60px;
+    padding-bottom: 110px;
+   
+  }
+
+.menu legend {
+    padding: 0 10px;
+   
+  }
+  .menu p {
+    padding-top:30px;
+  }
+
+.main {
+  float: left;
+  width:30%;
+      padding-top:20px;
+    padding-bottom: 90px;
+
+  overflow: hidden;
+}
+.main fieldset {
+    border: 3px solid  rgb(75, 113, 189);
+    border-radius: 15px;
+    color: rgb(75, 113, 189);
+    font-family: Arial;
+    text-align: center;
+   
+    padding-top: 80px;
+    padding-bottom: 125px;
+   
+  }
+
+.main legend {
+    padding: 0 10px;
+  }
+.right {
+
+  float: left;
+    
+
+  width: 35%;
+ 
+  padding-right:90px;
+    padding-top: 95px;
+    padding-bottom:45px;
+  margin-top: 7px;
+}
+
+.right fieldset {
+    border: 3px solid rgb(75, 113, 189);
+    border-radius: 40px;
+    color:rgb(75, 113, 189);
+    text-align: center;
+    font-family: Arial;
+    padding-right:auto;
+    padding-left:auto;
+    padding-top: 50px;
+   
+    padding-bottom: 70px;
+  }
+.right legend {
+  
+    padding: 0 10px;
+  }
+.right div {
+    padding-top:20px;
+  }
+ p{
+  margin-top:5px;
+  margin-bottom:5px
+ }
+.main div{
+padding-top: 20px;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+  .menu{
+    display: none;
+  
+  }
+   
+   .right {
+    width: 100%;
+    padding-left: 10px;
+  }
+ 
+}

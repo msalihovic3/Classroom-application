@@ -1,0 +1,62 @@
+body{
+   
+    background-color: rgb(186, 205, 221);
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+#okvir{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.left{
+  float: left;
+  width: 40%;
+text-align: right;
+margin-right: 20px;
+}
+
+input{
+  width: 255px;
+}
+select{
+  width: 260px;}
+
+.right{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+div{
+  margin-top:5px;
+  margin-bottom:5px
+ 
+}
+
+  @media only screen and (max-width:600px) {
+    /* For mobile phones: */
+  
+     
+     .right,.left, label {
+      width: 100%;
+     
+    }
+.left{
+  text-align: left;
+}
+  
+.polje div{
+  padding-left: 40px;
+  margin-top:2px;
+  margin-bottom:2px
+ 
+}
+.polje{
+  margin-top:5px ;
+  margin-bottom:10px ;
+  padding: 30px;
+}
+  }
