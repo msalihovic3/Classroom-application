@@ -1,3 +1,20 @@
+#Classroom application
+#•Time and reservation management application
+#• Utilized: 
+# -JavaScript
+# -NodeJS
+# -ExpressJS
+# -Sequelize
+# -Chai & Mocha
+# -HTML
+# -CSS
+# -MySQL
+
+
+
+
+
+
 SPIRALA 4
 GET tute servera za imam u dvije varijante za svaku tabelu:
                -prva vraca sve vrijednosti iz tabele a rute glase tako sto nativ tabele stavitmo u mnozinu (npr. GET /v2/predmeti, GET /v2/grupe..)
